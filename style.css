@@ -12,6 +12,8 @@
 	position: absolute;
 	background-color: #ecedda;
 	width: device-width;
+	font-size: 18px;
+	height: 10%;
 }
 
 #menu {
