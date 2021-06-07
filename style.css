@@ -12,8 +12,9 @@
 	position: absolute;
 	background-color: #ecedda;
 	width: device-width;
-	font-size: 32px;
+	font-size: 20px;
 	height: 30%;
+	width: 100%
 }
 
 #menu {
