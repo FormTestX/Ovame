@@ -1,0 +1,28 @@
+.menu {
+	text-align: center;
+	text-decoration: none;
+	color: #828487;
+	font-family: Helvetica;
+	border-bottom: 1px solid #828487;
+	padding: 1% 0 3% 0;
+	margin: 0 0 4% 0;
+	left: 0;
+	top: 0;
+	right: 0;
+	position: absolute;
+	background-color: #ecedda;
+	width: device-width;
+}
+
+#menu {
+	text-decoration: none;
+	color: #828487;
+	font-family: Helvetica;
+	margin: 3%;
+}
+
+#menu:hover {
+	cursor: pointer;
+	color: white;
+	text-decoration: underline;
+}
