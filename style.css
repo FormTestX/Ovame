@@ -1,31 +1,257 @@
+body {
+				font-family: 'Helvetica Neue', Helvica;
+}
+
 .menu {
-	text-align: center;
-	text-decoration: none;
-	color: #828487;
-	font-family: Helvetica;
-	border-bottom: 1px solid #828487;
-	padding: 1% 0 3% 0;
-	margin: 0 0 4% 0;
-	left: 0;
-	top: 0;
-	right: 0;
-	position: absolute;
-	background-color: #ecedda;
-	width: device-width;
-	font-size: 20px;
-	height: auto;
-	width: 100%
+				text-align: center;
+				color: #8d918e;
+				font-family: 'Helvetica Neue', Helvica;
+				background-color: #e1f7e4;
+	    position: relative;
+				justify-content: center;
+				padding: 3% 0 8% 0;
+				margin: -2.3% -2% 0 -2.3%;
+				border-bottom: 0px solid black;
 }
 
 #menu {
-	text-decoration: none;
-	color: #828487;
-	font-family: Helvetica;
-	margin: 3%;
+				margin: 2%;
+				text-decoration: none;
+				color: #8d918e;
+				cursor: pointer;
 }
 
-#menu:hover {
-	cursor: pointer;
-	color: white;
-	text-decoration: underline;
+.head {
+				text-align: center;
+				background-color: #c3decc;
+				padding: 10%;
+				margin: 0 -2.3% 0 -2.3%;
+				font-family: 'Helvetica Neue', Helvica;
 }
+
+#head {
+				font-size: 25px;
+}
+
+#hd {
+				font-size: 25px;
+				margin-top: -2%;
+				font-weight: bold;
+				animation-name: color;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+}
+
+@keyframes color {
+ 				0% {color: #eb4034;}
+			 20% {color: #eb6e34;}
+ 				40% {color: #ebba34;}
+ 				60% {color: #b5cf57;}
+ 				80% {color: #34ebcd;}
+ 				100% {color: #eb6e34;}
+}
+
+@keyframes fadeup {
+				0% {transform: translate(0, 100%);}
+				100% {transform: translate(0, 0);}
+}
+
+.btng {
+				width: 100%;
+				font-size: 15px;
+				padding: 10px;
+				background-color: #8cb9ba;
+				border: none;
+				height: 10%;
+				border-radius: 4px;
+				color: white;
+				animation-name: fadeup;
+				animation-duration: 1.5s;
+				cursor: pointer;
+}
+
+.ctn1 {
+				margin: 20% 20px 25% 20px;
+				text-align: center;
+				animation-name: fadeup;
+				animation-duration: 2.2s;
+				word-wrap: break-word;
+}
+
+.ctn2 {
+				margin: 20% 20px 25% 20px;
+				text-align: center;
+				animation-name: fadeup;
+				animation-duration: 3s;
+}
+
+.ctn3 {
+				margin: 20% 20px 25% 20px;
+				text-align: center;
+				animation-name: fadeup;
+				animation-duration: 2.5s;
+}
+
+footer {
+				background-color: #fff;
+				text-align: center;
+				color: #8a8884;
+				padding: 10px;
+				background-color: #000;
+				margin: -2.3%;
+				margin-bottom: -3%;
+}
+
+footer p {
+				font-family: monospace;
+				font-size: 13px;
+}
+
+.bg {
+				background-color: #fff;
+}
+
+@media screen and (min-width: 800px) {
+
+	.menu {
+				text-align: center;
+				color: #8d918e;
+				width: 99%;
+				font-family: 'Helvetica Neue', Helvica;
+				background-color: #e1f7e4;
+	    		position: relative;
+				margin: -2.3% -1% -1% -1%;
+				border-bottom: 0px solid black;
+				display: inline-block;
+				padding: 20px;
+}
+
+	.menu h3 {
+				display: inline-block;
+				float: left;
+				padding-left: 3%; 
+	}
+
+	#menu {
+				margin: 2%;
+				text-decoration: none;
+				color: #8d918e;
+				cursor: pointer;
+				display: inline-block;
+				float: right;
+}
+
+
+	.btng {
+				width: 50%;
+				font-size: 18px;
+				padding: 10px;
+				background-color: #8cb9ba;
+				border: none;
+				height: 10%;
+				border-radius: 4px;
+				color: white;
+				animation-name: fadeup;
+				animation-duration: 1.5s;
+				cursor: pointer;
+}
+
+	.head {
+				text-align: center;
+				background-color: #c3decc;
+				padding: 10%;
+				margin: 0 -1.5% 0 -2.3%;
+				font-family: 'Helvetica Neue', Helvica;
+}
+
+	#head {
+				font-size: 30px;
+}
+
+	#hd {
+				font-size: 30px;
+				margin-top: -2%;
+				font-weight: bold;
+				animation-name: color;
+				animation-duration: 5s;
+				animation-iteration-count: infinite;
+}
+
+	.ctn1 {
+				margin: 7% 50% 15% 0%;
+				text-align: center;
+				display: block;
+				animation-name: fadeup;
+				width: 50%;
+				animation-duration: 2.2s;
+				word-wrap: break-word;
+}
+
+	.ctn2 {
+				margin: 0 0% 15% 50%;
+				text-align: center;
+				width: 50%;
+				display: block;
+				animation-name: fadeup;
+				animation-duration: 3s;
+}
+
+	.ctn3 {
+				margin: 0 50% 15% 0%;
+				width: 50%;
+				display: block;
+				text-align: center;
+				animation-name: fadeup;
+				animation-duration: 2.5s;
+}
+
+	.ctn4 {
+				width: 50%;
+				margin: 0 0% 15% 50%;
+				display: block;
+				text-align: center;
+				animation-name: fadeup;
+				animation-duration: 2.5s;
+	}
+
+	footer {
+				text-align: center;
+				color: #8a8884;
+				background-color: #000;
+				margin: 0 -1.5% -3% -1.5%;
+}
+
+	#footr {
+				text-align: left;
+				display: inline;
+				
+	}
+
+	footer p {
+				font-family: monospace;
+				font-size: 13px;
+}
+
+	.fct {
+				width: 20%;
+				margin-left: ;
+				display: inline-block;
+	}
+
+	.sst {
+				width: 20%;
+				margin-right: ;
+				margin-left: ;
+				display: inline-block;
+	}
+	
+	.llt {
+				width: 20%;
+				margin-right: ;
+				display: inline-block;
+	}
+	
+	#in {
+				display: inline: block;
+	}
+	}
